@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Например, если число n = 17 , то последовательность выглядит следующим образом:
  * 17 52 26 13 40 20 10 5 16 8 4 2 1
  */
-public class Main {
+public class Test11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
