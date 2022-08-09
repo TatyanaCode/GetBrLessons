@@ -24,6 +24,7 @@ public class Main {
                 System.out.println("Buzz");
             } else {
                 System.out.println(a);
+
             }
         }
     }
