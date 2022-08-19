@@ -8,7 +8,7 @@ import java.util.Scanner;
  * которая будет прибавлять число x само к себе до тех пор, пока сумма не станет больше либо равна n.
  * Выведите полученную сумму.
  */
-public class MyProgram {
+public class Test21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
