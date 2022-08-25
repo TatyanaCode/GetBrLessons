@@ -11,12 +11,12 @@ public class Test20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
-        while (scanner.hasNext()) {
-            int k = scanner.nextInt();
-            if (k==0) {
+        while (scanner.hasNext()) {//  проверка наличия следующего значения
+            int k = scanner.nextInt(); // сканирования числа
+            if (k==0) {// если к ==0 то остановка
                 break;
             }
-            i = i + k;
+            i = i + k;// если есть следующее значение то 0 + следующее значение
         }
         System.out.println(i);
     }
