@@ -19,5 +19,5 @@ public class Test25 {
             b++;// к проделанному действию сделай еще шаг
         }
         System.out.print(sum);// выведи сумму
-    }'koihji;gjl'
+    }
 }
