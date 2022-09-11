@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Программа получает число n в качестве первой строки ввода, а затем получает сами оценки, каждую в новой строке.
  * Программа должна вывести четыре числа в одной строке: количество оценок D, C, B и A (в указанном порядке), разделенных пробелами.
  */
-public class Test12 {
+public class For {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfGrades = scanner.nextInt();

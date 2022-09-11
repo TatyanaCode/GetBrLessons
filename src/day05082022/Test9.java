@@ -15,7 +15,7 @@ public class Test9 {
             System.out.println(b);
             i++;
             b = i * i;
-        }
 
+        }
     }
 }

@@ -13,14 +13,21 @@ import java.util.Scanner;
 public class Cinema {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of rows:");//введите количество рядов
         int row = scanner.nextInt(); //количество рядов
+        System.out.println("Enter the number of seats in each row:\n");// введите количество мест в каждом ряду
         int place = scanner.nextInt();//количество мест в 1 ряду
-        System.out.println(" ");
-        int sumPlace = place * row;
-        if (sumPlace < 60){
-            System.out.println("10 рублей");
+        int sumPlace = place * row;//количество мест в зале
+        int price;
+        int income=0;
+        if (sumPlace < 60) {             // если сумма мест в зале меньше 60 то
+            price = 10;             // прайс равен 10
+            income = price * sumPlace;
+            System.out.println("income "+ "$" + income);
+        } else {
+            income = row / 2 * place * 10 + (row - row / 2) * place * 8;//общая прибыль = кол.во. рядов/2*на количество мест * 10$
+            System.out.println("income " + "$" + income);
         }
-
 
     }
 }

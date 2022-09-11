@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author tatyana.danilova 05.08.2022 14:23
  */
-public class Test7 {
+public class Cinema {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows:");

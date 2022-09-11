@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author tatyana.danilova 20.08.2022 8:46
  * Пользователь вводит с клавиатуры натуральное число n. Затем вводит n целых чисел. Необходимо найти и вывести на экран их сумму.
  */
-public class Test25 {
+public class Sums {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();// сканирование числа n
