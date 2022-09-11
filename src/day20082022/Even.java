@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Пользователь вводит с клавиатуры натуральное число n. Затем вводит n целых чисел.
  * Необходимо найти и вывести на экран количество чётных.
  */
-public class numberEven {
+public class Even {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         int n  = scanner.nextInt();// сканирование числа n
