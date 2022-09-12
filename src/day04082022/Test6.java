@@ -4,14 +4,10 @@ import java.util.Scanner;
 
 /**
  * @author tatyana.danilova 04.08.2022 14:07
- * <p>
- * Ann watched a health TV program and learned that oversleeping is as bad for your health as not getting enough sleep. She decided to follow TV recommendations and keep track of how many hours she spends sleeping.
- * <p>
- * You are given three numbers: A, B and H. According to TV, one should sleep at least A hours per day, but no more than B hours. H is how many hours Ann sleeps.
- * <p>
- * Task: If Ann sleeps less than A hours, print "Deficiency". If she sleeps more than B hours, print "Excess". If her sleep fits the recommendations, print "Normal".
- * <p>
- * Input format: three numbers A, B, H, where A is always less than or equal to B.
+ *  * Энн посмотрела телепрограмму о здоровье и узнала, что пересыпание так же вредно для здоровья, как недосыпание. Она решила следовать рекомендациям телевизора и следить за тем, сколько часов она тратит на сон.*  * <р>
+ *  * Вам даны три числа: A, B и H. Согласно телевизору, человек должен спать не менее A часов в сутки, но не более B часов. H — сколько часов спит Энн.*  * <
+ *  * Задача: Если Аня спит меньше А часов, выведите «Дефицит». Если она спит больше B часов, выведите «Excess». Если ее сон соответствует рекомендациям, выведите «Нормальный».
+ *  * Формат ввода: три числа A, B, H, где A всегда меньше или равно B.
  */
 public class Test6 {
 

@@ -21,5 +21,6 @@ public class Test22 {
             i++;
         }while (p < n);
         System.out.println(i + " " + p);
+
     }
 }
